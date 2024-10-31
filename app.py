@@ -7,7 +7,7 @@ from rpn_calculator_controller import RpnCalculatorController
 
 # Create Flask APP
 app = Flask(__name__)
-api = Api(app, version='1.0', title='RPN API',
+api = Api(app, version='1.0', title='RPN API | Itaf Ben SLIMEN',
           description='RPN API', default='rpn', default_label='RPN API')
 
 
